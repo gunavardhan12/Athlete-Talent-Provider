@@ -21,6 +21,10 @@
 		81403C1E2BFC77420080C81F /* Athlete_Talent_ProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81403C1D2BFC77420080C81F /* Athlete_Talent_ProviderTests.swift */; };
 		81403C282BFC77420080C81F /* Athlete_Talent_ProviderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81403C272BFC77420080C81F /* Athlete_Talent_ProviderUITests.swift */; };
 		81403C2A2BFC77420080C81F /* Athlete_Talent_ProviderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81403C292BFC77420080C81F /* Athlete_Talent_ProviderUITestsLaunchTests.swift */; };
+		81A432982BFF5AFC004F594D /* createAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A432972BFF5AFC004F594D /* createAccountVC.swift */; };
+		81DAD71A2BFF2215002195E2 /* OtpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DAD7192BFF2215002195E2 /* OtpVC.swift */; };
+		81FE6BCC2C00C2EB00B1FAAA /* welcomeAboradVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FE6BCB2C00C2EB00B1FAAA /* welcomeAboradVC.swift */; };
+		81FE6BCF2C00C31D00B1FAAA /* updateProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FE6BCE2C00C31D00B1FAAA /* updateProfileVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +63,10 @@
 		81403C232BFC77420080C81F /* Athlete_Talent_ProviderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Athlete_Talent_ProviderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81403C272BFC77420080C81F /* Athlete_Talent_ProviderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Athlete_Talent_ProviderUITests.swift; sourceTree = "<group>"; };
 		81403C292BFC77420080C81F /* Athlete_Talent_ProviderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Athlete_Talent_ProviderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		81A432972BFF5AFC004F594D /* createAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createAccountVC.swift; sourceTree = "<group>"; };
+		81DAD7192BFF2215002195E2 /* OtpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OtpVC.swift; path = ../../../../OtpVC.swift; sourceTree = "<group>"; };
+		81FE6BCB2C00C2EB00B1FAAA /* welcomeAboradVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = welcomeAboradVC.swift; sourceTree = "<group>"; };
+		81FE6BCE2C00C31D00B1FAAA /* updateProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = updateProfileVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +118,10 @@
 		813805DB2BFC7FCF00F0CAB8 /* VC */ = {
 			isa = PBXGroup;
 			children = (
+				81FE6BCD2C00C30200B1FAAA /* UpdateProfileVC */,
+				81FE6BCA2C00C2AA00B1FAAA /* Welcome Aboard */,
+				81A432962BFF5ADF004F594D /* CreateAccountVC */,
+				81DAD7182BFF216F002195E2 /* OTPVC */,
 				81DAD7172BFF0E18002195E2 /* LoginVC */,
 				3529EAFB2BFE12E7008D11D5 /* App Viewcontrollers */,
 			);
@@ -174,12 +186,44 @@
 			path = Athlete_Talent_ProviderUITests;
 			sourceTree = "<group>";
 		};
+		81A432962BFF5ADF004F594D /* CreateAccountVC */ = {
+			isa = PBXGroup;
+			children = (
+				81A432972BFF5AFC004F594D /* createAccountVC.swift */,
+			);
+			path = CreateAccountVC;
+			sourceTree = "<group>";
+		};
 		81DAD7172BFF0E18002195E2 /* LoginVC */ = {
 			isa = PBXGroup;
 			children = (
 				813805D82BFC7AE400F0CAB8 /* LoginVC.swift */,
 			);
 			path = LoginVC;
+			sourceTree = "<group>";
+		};
+		81DAD7182BFF216F002195E2 /* OTPVC */ = {
+			isa = PBXGroup;
+			children = (
+				81DAD7192BFF2215002195E2 /* OtpVC.swift */,
+			);
+			path = OTPVC;
+			sourceTree = "<group>";
+		};
+		81FE6BCA2C00C2AA00B1FAAA /* Welcome Aboard */ = {
+			isa = PBXGroup;
+			children = (
+				81FE6BCB2C00C2EB00B1FAAA /* welcomeAboradVC.swift */,
+			);
+			path = "Welcome Aboard";
+			sourceTree = "<group>";
+		};
+		81FE6BCD2C00C30200B1FAAA /* UpdateProfileVC */ = {
+			isa = PBXGroup;
+			children = (
+				81FE6BCE2C00C31D00B1FAAA /* updateProfileVC.swift */,
+			);
+			path = UpdateProfileVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,12 +357,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81A432982BFF5AFC004F594D /* createAccountVC.swift in Sources */,
+				81FE6BCC2C00C2EB00B1FAAA /* welcomeAboradVC.swift in Sources */,
 				35CDB4222BFCA03F00BC883B /* discoverVC.swift in Sources */,
 				81403C072BFC77410080C81F /* AppDelegate.swift in Sources */,
 				813805D92BFC7AE400F0CAB8 /* LoginVC.swift in Sources */,
+				81FE6BCF2C00C31D00B1FAAA /* updateProfileVC.swift in Sources */,
 				35CDB4262BFCA0B900BC883B /* profileVC.swift in Sources */,
 				81403C092BFC77410080C81F /* SceneDelegate.swift in Sources */,
 				35CDB4242BFCA0A300BC883B /* jobsVC.swift in Sources */,
+				81DAD71A2BFF2215002195E2 /* OtpVC.swift in Sources */,
 				35CDB4282BFCA32200BC883B /* homeVC.swift in Sources */,
 				354A986C2BFC8328006F93DC /* mainVC.swift in Sources */,
 			);
