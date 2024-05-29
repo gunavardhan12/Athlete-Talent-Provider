@@ -7,6 +7,7 @@
 
 import UIKit
 
+
 class LoginVC: UIViewController {
 
     override func viewDidLoad() {
@@ -17,7 +18,7 @@ class LoginVC: UIViewController {
     
     @IBAction func NextBtn(_ sender: UIButton){
         var s = ""
-        showAlert(message: s)
+//        showAlert(message: s)
     }
     func showAlert(message: String){
         let alert = UIAlertController(title: "We need to verify your number", message: "we need to make sure that \(message) s your number.", preferredStyle: .alert)
@@ -29,6 +30,4 @@ class LoginVC: UIViewController {
         alert.addAction(OkAction)
         present(alert, animated: true)
     }
-
-
 }
