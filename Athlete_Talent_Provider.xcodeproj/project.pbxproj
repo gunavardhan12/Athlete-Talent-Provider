@@ -7,11 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		352A8E062C007D3700828F13 /* UIFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352A8E052C007D3700828F13 /* UIFunctions.swift */; };
+		352A8E082C00B0D900828F13 /* inviteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352A8E072C00B0D900828F13 /* inviteVC.swift */; };
+		354469F92C006E8E004F30C6 /* settingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354469F82C006E8E004F30C6 /* settingVC.swift */; };
 		354A986C2BFC8328006F93DC /* mainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354A986B2BFC8328006F93DC /* mainVC.swift */; };
+		35614E422C048B4300E82951 /* contactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35614E412C048B4300E82951 /* contactModel.swift */; };
+		35614E442C049BE100E82951 /* inviteVCTablecell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35614E432C049BE100E82951 /* inviteVCTablecell.swift */; };
 		35CDB4222BFCA03F00BC883B /* discoverVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CDB4212BFCA03F00BC883B /* discoverVC.swift */; };
 		35CDB4242BFCA0A300BC883B /* jobsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CDB4232BFCA0A300BC883B /* jobsVC.swift */; };
 		35CDB4262BFCA0B900BC883B /* profileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CDB4252BFCA0B900BC883B /* profileVC.swift */; };
 		35CDB4282BFCA32200BC883B /* homeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CDB4272BFCA32200BC883B /* homeVC.swift */; };
+		35E8146A2C05DB9700F7536A /* MessageKit in Frameworks */ = {isa = PBXBuildFile; productRef = 35E814692C05DB9700F7536A /* MessageKit */; };
+		35E8146E2C05E40800F7536A /* inboxVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E8146D2C05E40800F7536A /* inboxVC.swift */; };
+		35E814702C05E43100F7536A /* chatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E8146F2C05E43100F7536A /* chatVC.swift */; };
 		813805D92BFC7AE400F0CAB8 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813805D82BFC7AE400F0CAB8 /* LoginVC.swift */; };
 		81403C072BFC77410080C81F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81403C062BFC77410080C81F /* AppDelegate.swift */; };
 		81403C092BFC77410080C81F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81403C082BFC77410080C81F /* SceneDelegate.swift */; };
@@ -41,11 +49,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		352A8E052C007D3700828F13 /* UIFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFunctions.swift; sourceTree = "<group>"; };
+		352A8E072C00B0D900828F13 /* inviteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inviteVC.swift; sourceTree = "<group>"; };
+		354469F82C006E8E004F30C6 /* settingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingVC.swift; sourceTree = "<group>"; };
 		354A986B2BFC8328006F93DC /* mainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainVC.swift; sourceTree = "<group>"; };
+		35614E412C048B4300E82951 /* contactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contactModel.swift; sourceTree = "<group>"; };
+		35614E432C049BE100E82951 /* inviteVCTablecell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inviteVCTablecell.swift; sourceTree = "<group>"; };
 		35CDB4212BFCA03F00BC883B /* discoverVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = discoverVC.swift; sourceTree = "<group>"; };
 		35CDB4232BFCA0A300BC883B /* jobsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jobsVC.swift; sourceTree = "<group>"; };
 		35CDB4252BFCA0B900BC883B /* profileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileVC.swift; sourceTree = "<group>"; };
 		35CDB4272BFCA32200BC883B /* homeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeVC.swift; sourceTree = "<group>"; };
+		35E8146D2C05E40800F7536A /* inboxVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inboxVC.swift; sourceTree = "<group>"; };
+		35E8146F2C05E43100F7536A /* chatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatVC.swift; sourceTree = "<group>"; };
 		813805D82BFC7AE400F0CAB8 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		81403C032BFC77410080C81F /* Athlete_Talent_Provider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Athlete_Talent_Provider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81403C062BFC77410080C81F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35E8146A2C05DB9700F7536A /* MessageKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,8 +110,37 @@
 				35CDB4212BFCA03F00BC883B /* discoverVC.swift */,
 				35CDB4252BFCA0B900BC883B /* profileVC.swift */,
 				35CDB4272BFCA32200BC883B /* homeVC.swift */,
+				354469F82C006E8E004F30C6 /* settingVC.swift */,
+				352A8E072C00B0D900828F13 /* inviteVC.swift */,
+				35614E432C049BE100E82951 /* inviteVCTablecell.swift */,
+				35E8146D2C05E40800F7536A /* inboxVC.swift */,
+				35E8146F2C05E43100F7536A /* chatVC.swift */,
 			);
 			path = "App Viewcontrollers";
+			sourceTree = "<group>";
+		};
+		352A8E032C007D0D00828F13 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				352A8E042C007D1600828F13 /* UIFuntions */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		352A8E042C007D1600828F13 /* UIFuntions */ = {
+			isa = PBXGroup;
+			children = (
+				352A8E052C007D3700828F13 /* UIFunctions.swift */,
+			);
+			path = UIFuntions;
+			sourceTree = "<group>";
+		};
+		35614E402C04896900E82951 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				35614E412C048B4300E82951 /* contactModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		813805DA2BFC7FBD00F0CAB8 /* Application */ = {
@@ -148,7 +193,9 @@
 		81403C052BFC77410080C81F /* Athlete_Talent_Provider */ = {
 			isa = PBXGroup;
 			children = (
+				352A8E032C007D0D00828F13 /* Helper */,
 				813805DA2BFC7FBD00F0CAB8 /* Application */,
+				35614E402C04896900E82951 /* Model */,
 				813805DB2BFC7FCF00F0CAB8 /* VC */,
 				813805DC2BFC800200F0CAB8 /* Storyboard */,
 				81403C0F2BFC77420080C81F /* Assets.xcassets */,
@@ -198,6 +245,9 @@
 			dependencies = (
 			);
 			name = Athlete_Talent_Provider;
+			packageProductDependencies = (
+				35E814692C05DB9700F7536A /* MessageKit */,
+			);
 			productName = Athlete_Talent_Provider;
 			productReference = 81403C032BFC77410080C81F /* Athlete_Talent_Provider.app */;
 			productType = "com.apple.product-type.application";
@@ -270,6 +320,9 @@
 				Base,
 			);
 			mainGroup = 81403BFA2BFC77410080C81F;
+			packageReferences = (
+				35E814682C05DB9700F7536A /* XCRemoteSwiftPackageReference "MessageKit" */,
+			);
 			productRefGroup = 81403C042BFC77410080C81F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -315,11 +368,18 @@
 			files = (
 				35CDB4222BFCA03F00BC883B /* discoverVC.swift in Sources */,
 				81403C072BFC77410080C81F /* AppDelegate.swift in Sources */,
+				35614E422C048B4300E82951 /* contactModel.swift in Sources */,
+				354469F92C006E8E004F30C6 /* settingVC.swift in Sources */,
 				813805D92BFC7AE400F0CAB8 /* LoginVC.swift in Sources */,
 				35CDB4262BFCA0B900BC883B /* profileVC.swift in Sources */,
+				35614E442C049BE100E82951 /* inviteVCTablecell.swift in Sources */,
+				352A8E062C007D3700828F13 /* UIFunctions.swift in Sources */,
 				81403C092BFC77410080C81F /* SceneDelegate.swift in Sources */,
+				35E8146E2C05E40800F7536A /* inboxVC.swift in Sources */,
+				35E814702C05E43100F7536A /* chatVC.swift in Sources */,
 				35CDB4242BFCA0A300BC883B /* jobsVC.swift in Sources */,
 				35CDB4282BFCA32200BC883B /* homeVC.swift in Sources */,
+				352A8E082C00B0D900828F13 /* inviteVC.swift in Sources */,
 				354A986C2BFC8328006F93DC /* mainVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -669,6 +729,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		35E814682C05DB9700F7536A /* XCRemoteSwiftPackageReference "MessageKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MessageKit/MessageKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		35E814692C05DB9700F7536A /* MessageKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 35E814682C05DB9700F7536A /* XCRemoteSwiftPackageReference "MessageKit" */;
+			productName = MessageKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 81403BFB2BFC77410080C81F /* Project object */;
 }

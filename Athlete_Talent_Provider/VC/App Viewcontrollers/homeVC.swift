@@ -33,11 +33,15 @@ class homeVC: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    override func viewWillAppear(_ animated: Bool) {
+        tabBarController?.tabBar.isHidden = false
+        print("hehehfsdhfahsdiaksdfsdkwehflaskdnfsdlfhalsdjfsdj")
+    }
     
-    func cornerRadius(_ name: UIView){
-        name.layer.cornerRadius = 15
+    @IBAction func inboxButton(_ sender: Any) {
+        let inboxvc = storyboard?.instantiateViewController(withIdentifier: "nc")
+        present(inboxvc!, animated: true)
     }
-    func imageRoundCorner(_ name: UIImageView){
-        name.layer.cornerRadius = name.frame.width/2
-    }
+    
+
 }
